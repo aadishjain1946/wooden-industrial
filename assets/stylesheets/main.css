@@ -782,6 +782,12 @@ ul{
     #carousel .carousel-inner .carousel-item .carousel-caption h1 strong{
         font-size: 36px;
     }
+    .carousel-caption p{
+        letter-spacing: 5px;
+        font-size: 13px;
+        padding-top: 0px;
+        text-transform: capitalize;
+    }
     #content .cont-sec-3{
         width: 100%;
     }
