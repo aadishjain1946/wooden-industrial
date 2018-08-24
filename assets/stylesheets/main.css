@@ -631,6 +631,14 @@ ul{
     color: rgb(254, 143, 1);
     border: none;
 }
+#footer .sectf4{
+    text-align: center;
+    margin-top: 0px;
+}
+#footer .sectf3 img{
+    height: 50px;
+    width: 50px;
+}
 /* ---------------------------MEDIA QUERIES-------------------------------------- */
 @media(min-width:1200px){
     .container{
