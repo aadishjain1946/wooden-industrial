@@ -373,7 +373,7 @@ ul{
     top: 23%;
     left: 25%;
     opacity: 0;
-    transform: scale(2);
+    transform: scale(5);
     transition-duration: 0.5s;
     color: #ffff;
 }
@@ -385,8 +385,8 @@ ul{
     padding: 10px 40px;
     display: inline-block;
     font-size: 14px;
-    border-top: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 #content .cont-sec-3 .colm21:hover .anim-text{
     opacity: 1;
@@ -401,7 +401,7 @@ ul{
     left: 0%;
     text-align: center;
     opacity: 0;
-    transform: scale(2);
+    transform: scale(5);
     transition-duration: 0.5s;
     color: #ffff;
 }
@@ -412,15 +412,16 @@ ul{
 #content .cont-sec-3 .colm21 .anim-text1 p{
     padding: 10px;
     font-size: 14px;
-    display: inline-block;
+    display: block;
     position: relative;
 }
 #content .cont-sec-3 .colm21 .anim-text1 p:before{
     content: "";
     position: absolute;
     top: 0%;
+    z-index: 6;
     left: 20%;
-    border: 0.3px solid #ffff;
+    border: 1px solid #ffff;
     width: 60%;
 }
 #content .cont-sec-3 .colm21 .anim-text1 p:after{
@@ -428,7 +429,8 @@ ul{
     position: absolute;
     bottom: 0%;
     left: 20%;
-    border: 0.3px solid #ffff;
+    z-index: 6;
+    border: 1px solid #ffff;
     width: 60%;
 }
 #content .cont-sec-3 .colm21:hover .anim-text1{
